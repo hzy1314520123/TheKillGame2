@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>桌游精灵2</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" type="text/css" href="css/killgame-common.css" />
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="font7/iconfont.css"/>
+		<link rel="stylesheet" href="match.css">
+		<script type="text/javascript" src="match.js"></script>
+	</head>
+	<body class="centerw">
+		<header>
+			<a class="iconfont icon-xiangzuo l" href="index_kill.html"></a>
+			<span>参数设置</span>
+		</header>
+		<main class="centerw">
+			<section class="main">
+				<div class="content">
+					<div class="row">
+						<div class="col-xs-2 col-left">
+							<ul>
+								<li>玩</li>
+								<li>家</li>
+								<li>匹</li>
+								<li>配</li>
+							</ul>
+						</div>
+						<div class="col-xs-10 col-right">
+							<div class="row">
+								<div class="col-xs-6">
+									<div class="row">
+										<div id="badBox" class="col-xs-12">
+											<div class="Qbox"></div>&nbsp;&nbsp;杀&nbsp;手:
+											<span id="bad">1</span>名</div>
+										<div class="col-xs-12">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+										<div class="col-xs-12">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+										<div class="col-xs-12">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+										<div class="col-xs-12">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+									</div>
+								</div>
+								<div class="col-xs-6">
+									<div class="row">
+										<div id="goodBox" class="col-xs-12">
+											<div class="Sbox"></div>&nbsp;&nbsp;平&nbsp;民:
+											<span id="good">1</span>名</div>
+										
+									</div>
+								</div>
+								<div id="clickSet" class="col-xs-12">
+									<span id="setNum">点击设置&nbsp;&nbsp;<img src="image/pencil.png"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="word">
+				<div class="col-xs-12">
+					<p class="phase">水民词组</p>
+				</div>
+				<div class="col-xs-12 feel">
+					<p class="phase">幽灵词组</p>
+				</div>
+			</div>
+			<div class="input">
+				<div class="row player_nb">
+					<div class="col-xs-12">
+						<p class=""><span class="para1">玩家人数&nbsp;</span><input type="text" id="inputText" value="4"><span class="para2">&nbsp;人</span><span>(玩家数量为4 - 18)</span></p>
+						<div class="myRange">
+							<input type="button" id="reduce" value="-">
+							<input id="myRange" type="range" max="18" min="4" step="1" value="4">
+							<input type="button" id="add" value="+">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="last">
+				<div class="row">
+					<div class="col-xs-12">
+						<button id="btn" class="btton">去发牌</button>
+					</div>
+				</div>
+			</div>
+		</main>
+		<div id="overPlay"></div>
+		<div id="box">
+			<p>请先正确设置玩家数量！</p>
+			<div id="left">取消</div>
+			<div id="right">确认</div>
+		</div>
+		<script src="jquery/jquery-3.2.1.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	</body>
+
+</html>

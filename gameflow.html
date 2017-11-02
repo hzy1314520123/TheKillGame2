@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>桌游精灵5</title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="gameflow.css">
+	    <link rel="stylesheet" type="text/css" href="font7/iconfont.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/killgame-common.css"/>
+	    <script type="text/javascript" src="gameflow.js"></script>
+	</head>
+	<body class="centerw">
+		<main>
+			<header class="vote_head">
+			    <a class="iconfont icon-xiangzuo l" href="diary.html"></a>
+				<span>法官台本</span>
+				<a class="iconfont icon-cha r" onclick="backa()"></a>
+			</header>
+			<div class="section">
+			    <div class="day">第一天</div>
+			    <div class="Process">
+			    	<span class="triangle1">◆</span>
+			    	<div class="border">
+			    		<div>
+			    			<img src="image/moon.png">
+			    			<button class="kill">凶手杀人</button>
+			    			<span class="triangle">◆</span>
+			    		</div>
+			    		<p class="kill-text"></p>
+			    		<div>
+			    			<img src="image/sun.png">
+			    			<button class="complain">亡灵发表遗言</button>
+			    			<span class="triangle">◆</span>
+			    		</div>
+			    		<div>
+			    			<button class="speak">玩家依次发言</button>
+			    			<span class="triangle">◆</span>
+			    		</div>
+			    		<div>
+			    			<button class="vote">全民投票</button>
+			    			<span class="triangle">◆</span>
+			    		</div>
+			    		<p class="vote-text"></p>
+			    	</div>
+			    </div>
+			</div>
+			<div id="Diary" style="display:none;">
+			    <div class="day">第一天</div>
+			    <div class="Process">
+			    	<span class="triangle1">◆</span>
+			    	<p class="kill-text"></p>
+			    	<p class="vote-text"></p>
+			    </div>
+			</div>
+		</main>
+		
+		<footer class="centerw">
+			<button id="end">结束游戏</button>
+			<button id="diary">法官日志</button>
+		</footer>
+		<script src="jquery/jquery-3.2.1.js"></script>
+		<script src="state-machine.js"></script>
+		<script src="bootbox.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>

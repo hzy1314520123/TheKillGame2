@@ -1,0 +1,128 @@
+body {
+	padding: 0;
+}
+
+.subnav {
+	font-size: 20px;
+}
+
+
+/*页眉*/
+
+.icon-tubiaozhizuomoban-copy {
+	margin: 10px 0px 4px 11px;
+	font-size: 28px;
+}
+
+
+/*颈部 上次游戏*/
+
+.subnav {
+	padding: 20px 0;
+	color: #8C8C8C;
+	font-size: 34px;
+	line-height: 2rem;
+	text-align: center;
+	border: solid 1px #DCDCDC;
+	background-color: white;
+}
+
+.icon-xiangyou {
+	margin-right: 1vw;
+	color: #CCCCCC;
+	font-size: 20px;
+}
+
+
+/*中间部分*/
+
+main {
+	margin-top: 55px;
+	padding: 10px;
+	background-color:#F0F0F0;
+	border: solid 1px #DCDCDC;
+}
+
+.title {
+	padding: 15px 0;
+	text-align: center;
+	font-size: 37px;
+	color: #FAA732;
+	line-height: 3rem;
+	border-bottom: solid 1px #FAA732;
+	background-color: #FFFFFF;
+}
+
+.menu {
+	border: solid 1px #DCDCDC;
+	margin-top: 30px;
+	padding-bottom: 10px;
+	position: relative;
+	background-color: #FFFFFF;
+	
+}
+
+.title-sm a {
+	color: white;
+}
+.title-sm {
+	height: 125px;
+	margin: 30px 55px ;
+	text-align: center;
+	font-size: 2rem;
+	line-height: 125px;
+	color: white;
+	background-color: #6dd2e9;
+}
+.title-sm button{
+	font-size: 32px;
+}
+.submenu p {
+	font-size: 24px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	color: #8C8C8C;
+}
+.submenu button {
+	border: none;
+	font-size: 20px;
+	color: white;
+	background-color: #6dd2e9;
+}
+.icon-right {
+	position: absolute;
+	top: 48%;
+	right: 0.5vw;
+	font-size: 2.5rem;
+	color: #FAA732;
+}
+.icon-xiangzuo1{
+	position: absolute;
+	top: 48%;
+	left: 0.5vw;
+	font-size: 2.5rem;
+	color: #FAA732;
+}
+
+
+/*四个小点*/
+
+.scroll {
+	width: 6rem;
+	height: 1rem;
+	margin: 1vh auto;
+}
+
+.scroll div {
+	float: left;
+	margin: 0.2rem 0.3rem 0 0.4rem;
+	height: 0.8rem;
+	width: 0.8rem;
+	border-radius: 50%;
+	background-color: #DCDCDC;
+}
+
+.scroll div:hover {
+	background-color: #5AC0CE;
+}

@@ -1,0 +1,1 @@
+setTimeout("location.href='index_kill.html'", 2000); 

@@ -1,0 +1,293 @@
+html
+{
+	font-size:625%;
+	height: 100%
+}
+body{
+	margin:0rem;
+	height: 100%;
+	position: relative;
+}
+header{
+	width:100%;
+	height:0.5rem;
+	background-color:rgba(30, 171, 222, 0.78);
+	display:table;
+	text-align: center;
+	font-size:0.18rem;
+	line-height: 0.5rem;
+	color:white;
+}
+.back_img{
+	position: absolute;
+    top: 0.04rem;
+    transform: scale(0.6);
+    left: 1%;
+}
+.set_img{
+	position: absolute;
+    transform: scale(0.6);
+    right: -0.3%;
+    top: 0.01rem;
+}
+.l {
+	float: left;
+}
+main{
+ 	background-color:#F0F0F0;
+	padding: 10px ;
+}
+.icon-xiangzuo{
+	text-decoration: none;
+	color: white;
+	margin-left: 10px;
+	display: inline-block;
+	float: left;
+	font-size: 28px;
+}
+.main{
+   background-color: white;
+}
+.Sbox{
+	display: inline-block;
+	width: 0rem;
+	height: 0rem;
+	border:0.05rem solid #2BBDE0;
+}
+.Qbox{
+	display: inline-block;
+	width: 0rem;
+	height: 0rem;
+	border:0.05rem solid red;
+}
+.col-xs-12{
+	padding-top:0.2rem;
+}
+.col-left{
+	width: 20%;
+	font-weight:600;
+	font-size: 0.18rem;
+	border-right:0.01rem solid lightgrey;
+	text-align: center;
+	padding: 0.79rem 4.5% 100px 4.5%;
+}
+.col-right{
+	padding: 0;
+	width: 80%;
+	font-size: 0.14rem;
+	color:#999999;
+	text-align:center;
+}
+ul,li{
+	list-style-type: none;
+	margin:0rem;
+	padding: 0rem;
+}
+#clickSet{
+	font-size:0.16rem;
+	color:#2BBDE0;
+	font-weight:600;
+	text-align: center;
+	padding: 0.1rem 0rem;
+	border-top:0.01rem solid lightgrey;
+}
+#clickSet:hover{
+	cursor:pointer;
+}
+.headline{
+	margin: 0.1rem 2%;
+	height: 0.35rem;
+	background-color: white;
+	box-shadow: 0px 2px 1px rgba(136, 136, 136, 0.3);
+}
+.headline p{
+	font-size: 0.18rem;
+	text-align: center;
+	margin: 0rem;
+	line-height: 0.35rem;
+}
+.distribute{
+	margin: 0.1rem 2%;
+	font-size: 0.12rem;
+	height: 1.8rem;
+	background-color: white;
+	box-shadow: 0px 2px 1px rgba(136, 136, 136, 0.3);
+}
+.left{
+	float: left;
+	width: 50%;
+}
+.right{
+	float: right;
+	width: 50%;
+}
+.phase{
+	font-size:0.16rem;
+	color: #999999;
+	padding-bottom: 0.1rem;
+	margin: 0rem;
+	border-bottom:0.01rem solid lightgrey;
+}
+.feel{
+	padding-bottom: 0.25rem;
+}
+.input{
+
+}
+#inputText{
+	background-color: #F0F0F0;
+	text-align: center;
+	width: 50px;
+	font-size: 24px;
+	border:none;
+	border-radius: 0.03rem;
+	color: orange;
+}
+.myRange{
+	width: 85%;
+	margin:35px auto;
+	position: relative;
+	margin-bottom: 0.2rem;
+}
+/*横条样式*/  
+input[type=range] {  
+  -webkit-appearance: none;/*清除系统默认样式*/  
+  width: 100%;
+  outline:none;  
+  background: -webkit-linear-gradient(orange,orange) no-repeat, blue;/*设置左边颜色为#61bd12，右边颜色为#ddd*/  
+  background-size: 100% 100%;/*设置左右宽度比例*/  
+  height: 0.03rem;/*横条的高度*/  
+}  
+/*拖动块的样式*/  
+input[type=range]::-webkit-slider-thumb {  
+  -webkit-appearance: none;/*清除系统默认样式*/  
+  height: 0.23rem;/*拖动块高度*/  
+  width: 0.37rem;/*拖动块宽度*/  
+  background-image: url(image/btn.png);/*拖动块背景*/
+  background-size:contain; 
+  border-radius:0.05rem;  
+  border: solid 1px #ddd; /*设置边框*/  
+}  
+#reduce{
+	border: 0.01rem solid lightgrey;
+    width: 0.2rem;
+    font-weight: 800;
+    background-color: white;
+    font-size: 0.25rem;
+    color: orange;
+    line-height: 0rem;
+    text-indent: -0.01rem;
+    text-align: center;
+    height: 0.2rem;
+    position: absolute;
+    left: -0.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#add{
+	border: 0.01rem solid lightgrey;
+    width: 0.2rem;
+    font-weight: 800;
+    background-color: white;
+    font-size: 0.18rem;
+    color: orange;
+    line-height: 0.1rem;
+    text-indent: -0.03rem;
+    text-align: center;
+    height: 0.2rem;
+    position: absolute;
+    right: -0.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.word{
+	overflow: hidden;
+}
+.word,.input{
+	background-color: white;
+	margin-top: 10px;
+}
+.player_nb span{
+	color: orange;
+	font-size: 24px;
+}
+.last{
+	font-size: 0.18rem;
+}
+.row{
+	margin: 0;
+}
+.btton{
+	padding: 10px;
+	font-size: 28px;
+	color:white;
+	background-color: orange;
+	width: 100%;
+}
+#badBox{
+	visibility:hidden;
+	padding-bottom: 0.15rem;
+}
+#goodBox{
+	visibility:hidden;
+	padding-bottom: 0.15rem;
+}
+#overPlay{
+	width: 100%;
+	height:100%;
+	position: absolute;
+	top: 0rem;
+	left:0rem;
+	background-color: lightgrey;
+	opacity:0.4;
+	filter:alpha(opacity=20);
+	display: none;
+}
+#box{
+	font-size: 0.16rem;
+	width: 70%;
+	height:25%;
+	position: absolute;
+	border-radius:0.1rem;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	background-color: white;
+	box-shadow: 0rem 0rem 0.5rem #9e9898;
+	display: none;
+}
+#box p{
+	text-align: center;
+	color:#3f3f94;
+	font-weight:600;
+	font-size: 0.18rem;
+	line-height: 0.9rem;
+}
+#left{
+	line-height: 0.4rem;
+	color:#4da2d6;
+	width: 49.9%;
+	position: absolute;
+	bottom: 0rem;
+	left:0rem;
+	height: 0.4rem;
+	float: left;
+	border-top:0.001rem solid lightblue;
+	text-align: center;
+	border-right:0.001rem solid lightblue;
+	cursor:pointer
+
+}
+#right{
+	line-height: 0.4rem;
+	color:#4da2d6;
+	position: absolute;
+	bottom: 0rem;
+	right:0rem;
+	width: 49.9%;
+	height: 0.4rem;
+	float: right;
+	border-top:0.001rem solid lightblue;
+	text-align: center;
+	cursor:pointer
+}

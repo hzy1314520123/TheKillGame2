@@ -1,0 +1,53 @@
+/* ==========================================
+    basic style 基本样式
+   ========================================== */
+  
+
+/* float */
+.l{float:left;}
+.r{float:right;}
+
+/* 块状元素水平居中 */
+.auto{margin-left:auto; margin-right:auto;}
+/* 清除浮 动*/
+.fix{*zoom:1;}
+.fix:after{display:table; content:''; clear:both;}
+.ovfl{
+	overflow: hidden;
+}
+/*定宽居中*/
+.centerw{
+	margin: 0 auto;
+	min-width: 320px;
+	max-width: 640px;
+}
+/*页尾固定*/
+.fiexdb{
+	z-index: 99;
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/*头部固定*/
+.fiexdt{
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+/*各个组件共用样式*/
+
+/*nav*/
+.nav{
+	padding: 5px 0;
+	font-size: 20px;
+    width: 100%;
+	z-index: 99;
+	color: white;
+	background-color: #2BBDE0;
+}
+footer a{
+	color: white;
+}
+
